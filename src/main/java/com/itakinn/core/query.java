@@ -8,8 +8,10 @@ public class query {
         db.lerDB(nome);
         Double saldoo = db.saldo;
         if (valor > saldoo){
+            System.out.println();
             System.out.println("Voce nao tem esse valor.");
             System.out.println("Atualmente voce tem: "+ saldoo);
+            System.out.println();
             Main.main(null);
         }else {
             int id =db.idd;

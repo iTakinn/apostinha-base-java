@@ -18,10 +18,13 @@ public class db {
                     + "saldo INTEGER\n"
                     + ");";
             stmt.execute(sql);
+            System.out.println();
             System.out.println("Banco de dados criado com sucesso!");
+            System.out.println();
         } catch (SQLException e) {
             System.out.println("Erro ao criar o banco de dados: " + e.getMessage());
         }
+        Main.main(null);
     }
 
     public static void inserirDB(int id, String nome, int saldo) {
