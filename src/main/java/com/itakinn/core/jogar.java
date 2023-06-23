@@ -1,8 +1,6 @@
 package com.itakinn.core;
 
 import java.util.Random;
-
-import com.itakinn.Main;
 import com.itakinn.constantes;
 
 public class jogar {
