@@ -6,7 +6,7 @@ import com.itakinn.Main;
 import com.itakinn.constantes;
 
 public class db {
-    private static final String DATABASE_FILE = "database.db";
+    private static final String DATABASE_FILE = constantes.database;
 
     public static void criarDB() {
         try (Connection conn = DriverManager.getConnection("jdbc:sqlite:" + DATABASE_FILE);
