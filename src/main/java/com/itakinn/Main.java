@@ -30,7 +30,7 @@ public class Main
             input.iniciar();
         }
         
-    }
+        }
     }
     
 }
